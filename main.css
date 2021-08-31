@@ -2,14 +2,28 @@
 html {
     color: hsl(300, 43%, 22%);
     font-family: 'Spartan', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
     width: 100%;
 }
 
 /* CONTAINER STYLES */
+.component-container {
+    margin: auto;
+    margin-top: 70px;
+    width: 85%;
+}
 
 /* OVERVIEW STYLES */
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+h2 {
+    color: hsl(303, 10%, 53%);
+    font-size: .9rem;
+    font-weight: 400;
+
 
 /* REVIEW STYLES */
 
