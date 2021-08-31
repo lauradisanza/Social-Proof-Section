@@ -1,4 +1,11 @@
 /* BASE STYLES */
+html {
+    color: hsl(300, 43%, 22%);
+    font-family: 'Spartan', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+}
 
 /* CONTAINER STYLES */
 
