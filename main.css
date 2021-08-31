@@ -5,6 +5,8 @@ html {
     font-size: 15px;
     text-align: center;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 /* CONTAINER STYLES */
@@ -23,7 +25,35 @@ h2 {
     color: hsl(303, 10%, 53%);
     font-size: .9rem;
     font-weight: 400;
+    line-height: 1.7rem;
+}
 
+#ratings {
+    margin-top: 30px;
+}
+
+.rating {
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    padding-left: 0px;
+}
+
+.stars {
+    list-style-type: none;
+    padding-left: 0;
+    padding-top: 15px;
+}
+
+.stars li {
+    display: inline;
+    padding: 0 2px;
+}
+
+.detail {
+    font-size: .9rem;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
 
 /* REVIEW STYLES */
 
