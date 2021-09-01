@@ -65,6 +65,7 @@ h2 {
 
 .author {
     display: flex;
+    text-align: left;
 }
 
 .author img {
@@ -79,6 +80,7 @@ h2 {
 
 .title { 
     color: hsl(333, 80%, 67%);
+    font-weight: 400;
 }
 
 /* FOOTER STYLES */
