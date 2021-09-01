@@ -59,11 +59,16 @@ h2 {
 }
 
 /* REVIEW STYLES */
+#reviews {
+    margin-top: 60px;
+}
+
 .review {
     background-color: hsl(300, 43%, 22%);
     border-radius: 10px;
     color: white;
-    padding: 9%;
+    margin: 15px 0;
+    padding: 8.5%;
     text-align: left;
 }
 
@@ -92,7 +97,9 @@ h2 {
 
 .quote {
     font-size: .9rem;
-    line-height: 2rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    padding-top: 10px;
 }
 
 /* FOOTER STYLES */
