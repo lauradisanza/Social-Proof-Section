@@ -129,8 +129,25 @@ h2 {
         /* BASE STYLES */
 
         /* CONTAINER STYLES */
+        .component-content {
+            margin: auto;
+            width: 80%;
+        }
 
         /* OVERVIEW STYLES */
+        .headings {
+            text-align: left;
+            width: 50%;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        h2 {
+            font-size: 1.15em;
+        }
 
         /* REVIEW STYLES */
 
