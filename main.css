@@ -135,6 +135,10 @@ h2 {
         }
 
         /* OVERVIEW STYLES */
+        #overview {
+            display: flex;
+        }
+        
         .headings {
             text-align: left;
             width: 50%;
@@ -147,6 +151,11 @@ h2 {
 
         h2 {
             font-size: 1.15em;
+        }
+
+        #ratings {
+            width: 50%;
+            margin-top: 0;
         }
 
         /* REVIEW STYLES */
