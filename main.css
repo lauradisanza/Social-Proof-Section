@@ -32,6 +32,7 @@ h2 {
     line-height: 1.7rem;
 }
 
+/* RATINGS STYLES */
 #ratings {
     margin-top: 30px;
 }
@@ -151,9 +152,36 @@ h2 {
             font-size: 1.15em;
         }
 
+        /* RATINGS STYLES */
         #ratings {
-            width: 50%;
+            width: 45%;
             margin-top: 0;
+            margin-left: auto;
+            display: flex;
+            justify-content: center;
+            flex-flow: wrap;
+        }
+        .rating {
+            display: flex;
+            flex-flow: wrap;
+            justify-content: space-around;
+            align-items: center;
+            width: 80%;
+            margin: 10px 0;
+        }
+        .stars {
+            padding-top: 0px;
+        }
+        
+        .detail {
+            padding-bottom: 0px;
+        }
+
+        .rating-1 {
+            margin-right: 25%;
+        }
+        .rating-3 {
+            margin-left: 25%;
         }
 
         /* REVIEW STYLES */
@@ -167,6 +195,13 @@ h2 {
         .review {
             width: 28%;
             padding: 2%;
+        }
+        
+        .review-1 {
+            margin-bottom: 50px;
+        }
+        .review-3 {
+            margin-top: 50px;
         }
 
         /* FOOTER STYLES */
