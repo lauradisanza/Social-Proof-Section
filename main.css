@@ -157,6 +157,17 @@ h2 {
         }
 
         /* REVIEW STYLES */
+        #reviews {
+            display: flex;
+            flex-flow: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .review {
+            width: 28%;
+            padding: 2%;
+        }
 
         /* FOOTER STYLES */
     
